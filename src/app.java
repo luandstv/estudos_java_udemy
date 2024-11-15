@@ -1,13 +1,11 @@
-import vetor.vetorAula1;
-
-import java.util.Locale;
-import java.util.Scanner;
+import vetor.Vetoraula2;
 
 public class app {
     public static void main(String[] args) {
 
-        vetorAula1 vetor = new vetorAula1();
+        Vetoraula2 mediaPreco = new Vetoraula2();
 
-        vetor.vetores();
+        mediaPreco.precoMedio();
+
     }
 }
