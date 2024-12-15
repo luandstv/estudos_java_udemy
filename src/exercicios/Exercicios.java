@@ -23,7 +23,7 @@ public class Exercicios {
         int[] vect = new int[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.println("Digite um numero: ");
+            System.out.print("Digite um numero: ");
             vect[i] = sc.nextInt();
         }
 
@@ -44,6 +44,7 @@ public class Exercicios {
             }
         }
 
+        System.out.println("Numeros Negativos:");
         for (int negativo : negativos) {
             System.out.println(negativo);
         }
